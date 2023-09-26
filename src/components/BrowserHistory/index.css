@@ -1,0 +1,98 @@
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+}
+
+.header-container {
+  background-color: #3367d6;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-app-logo {
+  margin-left: 100px;
+}
+
+.input-container {
+  margin-right: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0;
+  background-color: #2850a7;
+}
+
+.image-container {
+  padding: 4px 20px 4px 20px;
+  border: solid 1px #ececec;
+  border-right: none;
+}
+
+.input-element {
+  width: 400px;
+  padding: 10px 60px 10px 20px;
+  background-color: #2850a7;
+  border: solid 1px #ececec;
+  color: #ffffff;
+  outline: none;
+}
+
+.content-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin: 50px 50px 20px 50px;
+  padding: 0;
+}
+
+.browser-history-container {
+  list-style-type: none;
+}
+
+.empty-history-view {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 900;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .history-app-logo {
+    margin-left: 40px;
+  }
+
+  .input-container {
+    margin-right: 100px;
+    height: 40px;
+  }
+
+  .input-element {
+    width: 100px;
+  }
+
+  .empty-history-view {
+    font-size: 24px;
+    height: 80vh;
+  }
+}
+
+@media screen and ((min-width: 577px) and (max-width: 768px)) {
+  .history-app-logo {
+    margin-left: 100px;
+  }
+
+  .input-container {
+    margin-right: 50px;
+  }
+
+  .input-element {
+    width: 300px;
+  }
+}
